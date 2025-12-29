@@ -1,0 +1,75 @@
+/* ============================================
+   폰트 로드
+   ============================================ */
+@import '../fonts/pretendard/web/static/pretendard-subset.css';
+
+/* ============================================
+   Tailwind CSS 디렉티브
+   ============================================ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   디자인 시스템 소스 (Source of Truth)
+   ============================================ */
+@layer base {
+  :root {
+    /* 브랜드 컬러 (RGB 형식으로 정의하여 투명도 지원) */
+    --color-primary: 0 0 235;    /* #0000eb */
+    --color-accent: 235 0 0;     /* #eb0000 */
+    
+    /* 기능적 컬러 매핑 */
+    --color-bg: 255 255 255;     /* #ffffff */
+    --color-text: 24 24 24;      /* #181818 */
+    --color-border: 231 231 231; /* #e7e7e7 */
+
+    /* 폰트 패밀리 */
+    --font-content: 'Pretendard', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-ui: 'Nanum Gothic', sans-serif;
+    --font-code: 'Nanum Gothic Coding', 'Consolas', monospace;
+  }
+}
+
+/* ============================================
+   전역 기본 스타일 (Base layer)
+   ============================================ */
+@layer base {
+  body {
+    @apply font-content antialiased;
+    color: rgb(var(--color-text));
+    background-color: rgb(var(--color-bg));
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* 기능별 폰트 할당 */
+  nav, aside, footer, button, .badge, .meta, .toc {
+    font-family: var(--font-ui);
+  }
+
+  pre, code {
+    font-family: var(--font-code);
+  }
+}
+
+/* ============================================
+   컴포넌트 및 유틸리티
+   ============================================ */
+@layer utilities {
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .truncate-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
