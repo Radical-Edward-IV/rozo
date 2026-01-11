@@ -1,0 +1,74 @@
+/* Climate Crisis KR Font */
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2050.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2050.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 150;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2040.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2040.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 175;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2030.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2030.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2019.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2019.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 250;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2010.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2010.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-2000.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-2000.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-1990.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-1990.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Climate Crisis KR';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./woff2/ClimateCrisisKR-1979.woff2') format('woff2'),
+       url('./woff/ClimateCrisisKR-1979.woff') format('woff');
+}
+

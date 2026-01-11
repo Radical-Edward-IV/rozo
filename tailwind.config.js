@@ -13,6 +13,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        logo: ['var(--font-logo)', 'sans-serif'],
         content: ['var(--font-content)', 'sans-serif'],
         ui: ['var(--font-ui)', 'sans-serif'],
         code: ['var(--font-code)', 'monospace'],
@@ -23,7 +24,7 @@ export default {
         primary: 'rgb(var(--color-primary) / <alpha-value>)',
         accent: 'rgb(var(--color-accent) / <alpha-value>)',
         bg: 'rgb(var(--color-bg) / <alpha-value>)',
-        text: 'rgb(var(--color-text) / <alpha-value>)',
+        text: 'rgb(var(--color-text) / <alpha-value>)', /* 기본 텍스트 색상 (메뉴, 본문 등 대부분의 텍스트에 사용) */
         border: 'rgb(var(--color-border) / <alpha-value>)',
       },
 
